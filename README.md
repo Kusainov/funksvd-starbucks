@@ -80,9 +80,9 @@ As for the general observations concerning 'not responsive' people, we can say t
 
 Based on the transformed transactional information I have formed user-item-matrix that reflects positive or negative (ignore) reaction of customers to the received offers.
 
-Basic form of FunkSVD without regularization was selected to fulfill missing values (rates) in user-item-matrix as not all customers received all of possible offers. As it was expected the model is doing better than a naive prediction (sending offers to all customers as if all customers are happy to receive and use offers).
+Basic form of FunkSVD without regularization was selected to fulfill missing values (rates) in user-item-matrix as not all customers recieved all of possible offers. In order to assess how well the model is doing I have splitted the data into tran and test sets. As it was expected the model is doing better than a naive prediction (sending offers to all customers as if all customers are happy to receive and use offers) on the test set. What we should keep in mind is that for 45 customers we could not make predictions due to cold start problem as they were not presented in both sets simultaneously.  
 
-However I could not achieve accuracy more than 0.7093 as the more the model is trained on the train set the more it is overfitting. So there was a trade off between training model on the train set and the prediction power on test set. Although 0.7093 does not look very bad, we should think over possible further steps.  
+I could not achieve accuracy more than 0.7093 as the more the model is trained on the train set the more it is overfitting. So there was a trade off between training model on the train set and the prediction power on test set. Although 0.7093 does not look very bad, we should think over possible further steps.  
 
 **What else can be done? Possible further analysis and improvement**
 
