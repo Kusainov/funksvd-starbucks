@@ -3,9 +3,10 @@
 ### Motivation
 The purpose of the project is to analyze Starbucks data that contains simulated data that mimics customer behavior on the Starbucks rewards mobile app and to address the following:
 
-1.  What kind of offers really excite people and bring more revenue?
-2.  General idea about people that tend to ignore offers comparing to responsive people.
-3.  How customer experience in terms of promo offers can be improved through personalization of the offers distribution using collaborative filtering technique (FunkSVD).
+1. Do offers really play significant role in company's cash inflows?  
+2. What kind of offers really excite people and bring more revenue?
+3. General idea about people that tend to ignore offers comparing to responsive people.
+4. How customer experience in terms of promo offers can be improved through personalization of the offers distribution using collaborative filtering technique (FunkSVD).
 
 ### Install
 This project requires Python 3.x and the following Python libraries installed:
@@ -54,6 +55,9 @@ Here is the schema and explanation of each variable in the files:
 * person (str) - customer id
 * time (int) - time in hours since start of test. The data begins at time t=0
 * value - (dict of strings) - either an offer id or transaction amount depending on the record
+
+***Note***
+As long as this dataset comes from Starbucks through Udacity it cannot be publicly shared. Had to delete origin files from Github.
 
 ### Run
 In a terminal navigate to the top-level project directory funksvd-starbucks/ (that contains this README) and and run one of the following commands:
