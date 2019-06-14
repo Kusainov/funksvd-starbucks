@@ -90,5 +90,8 @@ I could not achieve accuracy more than 0.7093 as the more the model is trained o
 2.  Special group of people can be eliminated from the dataset and the model performance can be compared to the previously achieved. Probably the special group is adding variance to the data and accordingly the model cannot generalize better.
 3. As an alternative to the offline approach we used here, we could do an online approach where we run an experiment to determine the impacts of implementing one or more recommendation systems into our user base (one can be based on FunkSVD and the second one based on supervised learning algorithm for example). A simple experiment for this situation might be to randomly assign users to a control group that receives additonal offers they never seen. Then we capture reaction to them and compare it with the predictions of the selected algorithms and measure performance.
 
+### Blog post
+Link to blog post: https://medium.com/@t.kussainov/funk-svd-hands-on-experience-on-starbucks-data-set-f3e0946da014
+
 ### License
 This project was completed as part of the Udacity Data Scientist Nanodegree. Data were provided by Udacity. The data was originally sourced by Udacity from Starbucks.
